@@ -4,9 +4,9 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="md:flex  align-middle gap-[30px] p-[30px] bg-black">
+      <div className="md:flex align-middle gap-[120px] p-[30px] bg-black">
         <div className="md:w-1/4 mb-[40px] md:mb-[0px]">
-          <h2 className="text-white font-bold text-2xl mb-[20px] border-l-blue-600 border-l-[6px] pl-[6px]">
+          <h2 className="text-white font-bold text-2xl mb-[20px] border-l-neutral-400 border-l-[6px] pl-[6px]">
             About Us
           </h2>
           <img src="/logo.png" alt="logo" height={"60"} width={"60"} />
@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="md:w-1/4 mb-[40px] md:mb-[0px]">
-          <h2 className="text-white font-bold text-2xl border-l-blue-600 border-l-[6px] pl-[6px]">
+          <h2 className="text-white font-bold text-2xl border-l-neutral-400 border-l-[6px] pl-[6px]">
             Useful Links
           </h2>
           <ul className="text-gray-400 md:pt-[20px] pt-[10px]">
@@ -42,7 +42,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="md:w-1/4 mb-[40px] md:mb-[0px]">
-          <h2 className="text-white font-bold text-2xl border-l-blue-600 border-l-[6px] pl-2">
+          <h2 className="text-white font-bold text-2xl border-l-neutral-400 border-l-[6px] pl-2">
             Follow Us
           </h2>
           <ul className="text-gray-400 md:pt-[20px] pt-[10px]">
@@ -74,7 +74,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="md:w-1/4 mb-[40px] md:mb-[0px]">
-          <h2 className="text-white font-bold text-2xl border-l-blue-600 border-l-[6px] pl-2">
+          <h2 className="text-white font-bold text-2xl border-l-neutral-400 border-l-[6px] pl-2">
             Contact Us
           </h2>
           <ul className="text-gray-400 md:pt-[20px] pt-[10px]">
@@ -107,6 +107,8 @@ export default function Footer() {
           <Link href={"/"}>Privacy Policy</Link>
         </div>
       </div>
+
+      
     </>
 
   );
